@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,14 +24,24 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float positionYawFactor = -3f;
     [SerializeField] float controlRollFactor = -20f;
 
+    PhotonView view;
+
     float xThrow;
     float yThrow;
 
+    void Start()
+    {
+        view = GetComponent<PhotonView>();
+    }
+
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
-        ProcessFiring();
+        if (view.IsMine)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+            ProcessFiring();
+        }
     }
 
     private void ProcessTranslation()

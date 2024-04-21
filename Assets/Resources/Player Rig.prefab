@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5366374049448500868}
   - component: {fileID: 5366374049448500867}
-  - component: {fileID: 811945012476761769}
   - component: {fileID: 122279497359065798}
   m_Layer: 0
   m_Name: Player Rig
@@ -56,28 +55,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &811945012476761769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5366374049448500869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  Synchronization: 3
-  OwnershipTransfer: 0
-  observableSearch: 2
-  ObservedComponents: []
-  sceneViewId: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
 --- !u!320 &122279497359065798
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -322,6 +299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
+--- !u!1 &2142574867034708394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4447573591279710020, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
+  m_PrefabInstance: {fileID: 2306688399083976430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1652861546616374032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3959548292107531774, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
@@ -332,3 +314,42 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4397673772918713958, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
   m_PrefabInstance: {fileID: 2306688399083976430}
   m_PrefabAsset: {fileID: 0}
+--- !u!320 &1315973564461558458
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142574867034708394}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 4ec4773486c4d4ad1967aa6f9027a04e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
+--- !u!114 &6976055069644220562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142574867034708394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
