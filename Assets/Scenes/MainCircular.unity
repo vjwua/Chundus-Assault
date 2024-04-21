@@ -761,6 +761,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Directional Light
       objectReference: {fileID: 0}
+    - target: {fileID: 847949493109654622, guid: d1ff0be9bd4274414b078077cc44a570, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0.1640625
+      objectReference: {fileID: 0}
+    - target: {fileID: 847949493109654622, guid: d1ff0be9bd4274414b078077cc44a570, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 0.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 847949493109654622, guid: d1ff0be9bd4274414b078077cc44a570, type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: -0.078125
+      objectReference: {fileID: 0}
     - target: {fileID: 847949493109654623, guid: d1ff0be9bd4274414b078077cc44a570, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1064,17 +1076,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 811945012476761769, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5366374049448500868, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5366374049448500868, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 157
+      value: 147.90234
       objectReference: {fileID: 0}
     - target: {fileID: 5366374049448500868, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 62
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5366374049448500868, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1111,14 +1127,6 @@ PrefabInstance:
     - target: {fileID: 5366374049448500869, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
       propertyPath: m_Name
       value: Player Rig
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658864084875590523, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6658864084875590523, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
-      propertyPath: fastApproximateAntialiasing.fastMode
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe56d4f2eba37424ba11948dc5c8a106, type: 3}
