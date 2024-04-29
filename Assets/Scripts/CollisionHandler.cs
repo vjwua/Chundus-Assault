@@ -27,7 +27,7 @@ public class CollisionHandler : MonoBehaviour
     private void StartCrashSequence()
     {
         explosionParticles.Play();
-        scoreBoard.CrashInfo();
+        //scoreBoard.CrashInfo(); //for handler
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<BoxCollider>().enabled = false;
         GetComponent<PlayerController>().enabled = false;
