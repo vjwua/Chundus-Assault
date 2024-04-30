@@ -42,6 +42,10 @@ public class PlayerController : MonoBehaviour
             ProcessRotation();
             ProcessFiring();
         }
+        else
+        {
+            return;
+        }
     }
 
     private void ProcessTranslation()

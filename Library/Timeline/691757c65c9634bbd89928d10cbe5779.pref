@@ -25,13 +25,13 @@ MonoBehaviour:
   m_Vals:
   - collapsed: 0
     showMarkers: 1
-    showInlineCurves: 1
+    showInlineCurves: 0
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 5300
+    lastInlineCurveDataID: 5340
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: deb556f1
-      m_LastClickedID: -245975586
+      m_SelectedIDs: aa7fb4d2
+      m_LastClickedID: -759922774
       m_ExpandedIDs: 00000080ffffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -56,6 +56,6 @@ MonoBehaviour:
       y: -73.599976
       width: 9.877074
       height: 482.8
-    trackHeightExtension: 0
+    trackHeightExtension: 2
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
