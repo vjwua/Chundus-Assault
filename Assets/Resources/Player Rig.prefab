@@ -143,6 +143,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4005129608963952397, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
+      propertyPath: view
+      value: 
+      objectReference: {fileID: 6976055069644220562}
+    - target: {fileID: 4005129608963952397, guid: adad9903ac3bd4196b1597ab49f27002, type: 3}
       propertyPath: explosionParticles
       value: 
       objectReference: {fileID: 2090985378469451912}

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class CollisionHandler : MonoBehaviour
 {
@@ -10,18 +11,28 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] float nextLevelDelay = 1.0f;
 
     Scoreboard scoreBoard;
+    [SerializeField] PhotonView view;
 
     void Start()
     {
-        scoreBoard = FindObjectOfType<Scoreboard>();
+        //scoreBoard = FindObjectOfType<Scoreboard>();
+        //view = GetComponent<PhotonView>();
     }
     
     private void OnCollisionEnter(Collision other) {
-        StartCrashSequence();
+        if (view.IsMine)
+        {
+            StartCrashSequence();
+        }
+        else { return; }
     }
 
     private void OnTriggerEnter(Collider other) {
-        StartCrashSequence();
+        if (view.IsMine)
+        {
+            StartCrashSequence();
+        }
+        else { return; }
     }
 
     private void StartCrashSequence()
